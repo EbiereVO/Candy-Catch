@@ -318,6 +318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8681284733289537671, guid: 634f2161a8597054baeda96f2936514b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 634f2161a8597054baeda96f2936514b, type: 3}
 --- !u!1001 &1986941770513234261
@@ -374,6 +378,10 @@ PrefabInstance:
     - target: {fileID: 8534050820153352966, guid: ed30953512fda89428d55aac88ecfffc, type: 3}
       propertyPath: m_Name
       value: Candy 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534050820153352966, guid: ed30953512fda89428d55aac88ecfffc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed30953512fda89428d55aac88ecfffc, type: 3}
@@ -445,6 +453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3555281281293575966, guid: 13f5dbda74d9a0441b3e49671995fe0f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9200949323289273006, guid: 13f5dbda74d9a0441b3e49671995fe0f, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -504,11 +516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262264834380568440, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.58
+      value: 4.63
       objectReference: {fileID: 0}
     - target: {fileID: 4262264834380568440, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.39
+      value: -2.26
       objectReference: {fileID: 0}
     - target: {fileID: 4262264834380568440, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -545,6 +557,10 @@ PrefabInstance:
     - target: {fileID: 7434412472841858773, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
       propertyPath: m_Name
       value: Candy 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7434412472841858773, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
