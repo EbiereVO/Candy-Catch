@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5366964861581335495}
   - component: {fileID: 1866542894}
   - component: {fileID: 1866542895}
+  - component: {fileID: 1866542898}
   m_Layer: 0
   m_Name: Candy 1
   m_TagString: Untagged
@@ -115,9 +116,21 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.01, y: 0.41}
   serializedVersion: 2
   m_Radius: 0.78
+--- !u!114 &1866542898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7434412472841858773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594be2f48a73025499befb7ef9026150, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
