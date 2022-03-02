@@ -8,13 +8,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float maxPose;
     [SerializeField] float moveSpeed;
 
-
-    void Start()
-    {
-        
-    }
-
-    
     void Update()
     {
         if (canMove)
@@ -30,6 +23,5 @@ public class PlayerController : MonoBehaviour
 
         float xPos = Mathf.Clamp(transform.position.x, -maxPose, maxPose);
         transform.position = new Vector3(xPos, transform.position.y, transform.position.z);
-       
     }
 }

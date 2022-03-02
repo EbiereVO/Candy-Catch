@@ -6,12 +6,23 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] float maxX;
     public GameObject[] Candies;
+    [SerializeField] float spawnInterval;
+
+    public static Spawner instance;
     void Start()
     {
-        spawnCandy();
+        startSpawn();
+       // stopSpawn();
     }
 
-    // Update is called once per frame
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
     void Update()
     {
         
@@ -24,4 +35,26 @@ public class Spawner : MonoBehaviour
         Vector3 randomPos = new Vector3(randomX, transform.position.y, transform.position.z);
         Instantiate(Candies[randomSpawn], randomPos, transform.rotation);
     }
+
+    IEnumerator SpawnCandies()
+    {
+        yield return new WaitForSeconds(2f);
+
+        while (true)
+        {
+            spawnCandy();
+            yield return new WaitForSeconds(spawnInterval);
+        }
+    }
+
+    void startSpawn()
+    {
+        StartCoroutine(SpawnCandies());
+    }
+
+    public void stopSpawn()
+    {
+        StopCoroutine(SpawnCandies());
+    }
+
 }
