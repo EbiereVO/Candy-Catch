@@ -43,9 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abdebc8fa25a9f74b9ea2e402f3831ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxX: 0
+  maxX: 6.8
   Candies:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7434412472841858773, guid: ab0244d4b5f83284e9f9143c50565eb6, type: 3}
+  - {fileID: 8681284733289537671, guid: 634f2161a8597054baeda96f2936514b, type: 3}
+  - {fileID: 3555281281293575966, guid: 13f5dbda74d9a0441b3e49671995fe0f, type: 3}
+  - {fileID: 8534050820153352966, guid: ed30953512fda89428d55aac88ecfffc, type: 3}
+  spawnInterval: 2

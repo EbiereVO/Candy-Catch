@@ -14,6 +14,7 @@ public class CandyScript : MonoBehaviour
 
         else if (collision.gameObject.tag == "Boundary")
         {
+            Manager.instance.DecreaseScore();
             Destroy(gameObject);
         }
 

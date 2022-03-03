@@ -12,7 +12,6 @@ public class Spawner : MonoBehaviour
     void Start()
     {
         startSpawn();
-       // stopSpawn();
     }
 
     void Awake()
@@ -21,11 +20,6 @@ public class Spawner : MonoBehaviour
         {
             instance = this;
         }
-    }
-
-    void Update()
-    {
-        
     }
 
     void spawnCandy()
@@ -54,7 +48,7 @@ public class Spawner : MonoBehaviour
 
     public void stopSpawn()
     {
-        StopCoroutine(SpawnCandies());
+        StopAllCoroutines();
     }
 
 }
