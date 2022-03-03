@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 695345423}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c89eb4f3335839419323aae205ae53f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  canMove: 1
+  maxPose: 7.12
+  moveSpeed: 15
 --- !u!58 &695345423
 CircleCollider2D:
   m_ObjectHideFlags: 0
