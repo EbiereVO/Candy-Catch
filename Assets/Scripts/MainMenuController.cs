@@ -9,9 +9,4 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
-
-    public void Exit()
-    {
-        
-    }
 }
