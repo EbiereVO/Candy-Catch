@@ -18,6 +18,7 @@ public class Manager : MonoBehaviour
     void Awake()
     {
         instance = this;
+        gameoverPanel.SetActive(false);
     }
    
     public void incrementScore()
